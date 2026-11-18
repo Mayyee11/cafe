@@ -1,0 +1,196 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f7f3ee;
+            color: #3b2314;
+        }
+
+        /* Header / Navbar */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 80px;
+            background-color: #2c1810;
+            color: white;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #d4a373;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            background: url('https://static.vecteezy.com/system/resources/thumbnails/009/811/748/small_2x/a-cup-of-coffee-latte-with-spoon-on-wood-blackground-free-photo.jpg') no-repeat center center/cover;
+            height: 1000px;
+            display: flex;
+            align-items: center;
+            padding: 0 80px;
+            color: white;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .hero-content {
+            position: relative;
+            max-width: 500px;
+        }
+
+        .hero-content h1 {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+
+        .hero-content p {
+            font-size: 16px;
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .btn {
+            background-color: #c67d5a;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #b06947;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* float */
+        .box {
+            width: 33.33%;
+            float: left;
+            height: 300px;
+            box-sizing: border-box;
+            padding: 40px;
+        }
+
+        /* Left*/
+        .section-left {
+            background-color: #3d2314;
+            color: white;
+        }
+
+        /* Middle */
+        .section-center {
+            background-color: #2a160a;
+            text-align: center;
+        }
+
+        .section-center img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /*Right */
+        .section-right {
+            background-color: #f2e3d5;
+            color: #3d2314;
+            text-align: center;
+        }
+
+        /* Buttom */
+        .btn-light {
+            background: white;
+            color: #3d2314;
+            padding: 10px 20px;
+        }
+
+        .btn-dark {
+            background: #3d2314;
+            color: white;
+            padding: 10px 20px;
+        }
+
+        /* Features Section */
+        .features {
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .features h2 {
+            font-size: 30px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+
+        .feature-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        .feature-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            width: 220px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            text-align: center;
+        }
+
+        .feature-item img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .feature-item h3 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .feature-item p {
+            font-size: 13px;
+            color: #666;
+            line-height: 1.4;
+        }
+
+
+
+
